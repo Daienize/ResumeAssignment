@@ -1,3 +1,83 @@
+
+/* CSS HEX */
+/* https://coolors.co/fbcaef-fa98d0-48304d-59435d 
+--LIGHTBLUE to font in dark background: #ADD8E6; rgb(173,216,230)
+-skyblue: #87CEEB rgb(135,206,235);
+--steelblue: #4682B4 rgb(70,130,180);
+--dodgerblue: #1E90FF rgb(30,144,255)
+--midnightblue: #191970 rgb(25,25,112)*/
+
+/* Global Styles
+---------------------------------------------- */
+body{
+    color: #343434;
+    font-family: "times new roman", arial, verdana, helvetica;   
+
+}
 img{
     width: 300px;
 }
+a{
+    text-decoration: none;
+    color: #191970;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/* Profile
+---------------------------------------------- */
+header{
+    background: #4682B4;
+    color:white;
+    text-align:center;         
+}
+header p{
+    font-style: italic;  
+}
+
+/* Projects
+---------------------------------------------- */
+.projects{
+    /* background:#6495ED;   
+    color:white;*/
+  
+}
+.projects a{
+    color: #191970;
+}
+.projects .btn{
+    color: #ADD8E6;
+    background: #191970;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+
+}
+.projects btn:hover{
+    background: rgba(72, 48, 77, 80%) ;
+}
+
+/* work experience
+---------------------------------------------- */
+.experience{
+    background:#4682B4;;
+    color:white;
+}
+
+/* education
+---------------------------------------------- */
+.education{
+    
+    /* background:#87CEFA; 
+    color:white;*/
+}
+
+/* Contact Info
+---------------------------------------------- */
+footer{
+    background: #B0C4DE;    
+    color:white;
+}
+/* Global Styles
+---------------------------------------------- */
