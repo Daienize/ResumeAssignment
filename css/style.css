@@ -54,7 +54,7 @@ header p{
     border-radius: 4px;
 
 }
-.projects btn:hover{
+.projects .btn:hover{
     background: rgba(72, 48, 77, 80%) ;
 }
 
