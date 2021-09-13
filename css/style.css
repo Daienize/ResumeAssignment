@@ -1,36 +1,63 @@
-
 /* CSS HEX */
 /* https://coolors.co/fbcaef-fa98d0-48304d-59435d 
 --LIGHTBLUE to font in dark background: #ADD8E6; rgb(173,216,230)
 -skyblue: #87CEEB rgb(135,206,235);
 --steelblue: #4682B4 rgb(70,130,180);
 --dodgerblue: #1E90FF rgb(30,144,255)
---midnightblue: #191970 rgb(25,25,112)*/
+--midnightblue: #191970 rgb(25,25,112)
+
+--antique-brass: #cb997eff;
+--desert-sand: #ddbea9ff;
+--champagne-pink: #ffe8d6ff;
+--ash-gray: #b7b7a4ff;
+--artichoke: #a5a58dff;
+--ebony: #6b705cff;
+*/
 
 /* Global Styles
 ---------------------------------------------- */
 body{
     color: #343434;
-    font-family: "times new roman", arial, verdana, helvetica;   
-
+    font-family: 'Montserrat', sans-serif;   
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 1.5;;
 }
 img{
     width: 300px;
 }
 a{
     text-decoration: none;
-    color: #191970;
+    color: rgba(72, 48, 77, 80%) ;
 }
 a:hover{
     text-decoration: none;
+}
+h1{
+    font-size: 100px;
+    line-height: 1;
+}
+h2{
+    font-size: 45px;
+}
+h1,h2{
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
 }
 
 /* Profile
 ---------------------------------------------- */
 header{
-    background: #4682B4;
-    color:white;
-    text-align:center;         
+    background: #cb997e;
+    /*color:white;*/
 }
 header p{
     font-style: italic;  
@@ -39,44 +66,46 @@ header p{
 /* Projects
 ---------------------------------------------- */
 .projects{
-    /* background:#6495ED;   
-    color:white;*/
+     background:#b7b7a4;   
+    /*color:white;*/
   
 }
 .projects a{
-    color: #191970;
+    color: rgba(72, 48, 77, 80%) ;    
 }
 .projects .btn{
-    color: #ADD8E6;
-    background: #191970;
+    color: white;
+    background: rgba(72, 48, 77, 80%) ;    
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
+    display: inline-block;
 
 }
 .projects .btn:hover{
-    background: rgba(72, 48, 77, 80%) ;
+    /*#a5a58d;*/
+    background: rgba(165, 165, 141, 1);
 }
 
 /* work experience
 ---------------------------------------------- */
 .experience{
-    background:#4682B4;;
-    color:white;
+    background:#ffe8d6;;
+    /*color:white;*/
 }
 
 /* education
 ---------------------------------------------- */
 .education{
     
-    /* background:#87CEFA; 
-    color:white;*/
+    background:#ddbea9; 
+   
 }
 
 /* Contact Info
 ---------------------------------------------- */
 footer{
-    background: #B0C4DE;    
+    background: #6b705c;    
     color:white;
 }
 /* Global Styles
