@@ -16,6 +16,12 @@
 
 /* Global Styles
 ---------------------------------------------- */
+html{
+    box-sizing: border-box;
+}
+*, *::before,*::after{
+    box-sizing: inherit;
+}
 body{
     color: #343434;
     font-family: 'Montserrat', sans-serif;   
@@ -85,6 +91,16 @@ header p{
 .projects .btn:hover{
     /*#a5a58d;*/
     background: rgba(165, 165, 141, 1);
+}
+.project-item{
+    overflow: hidden;
+    border-bottom: 1px dashed rgba(72, 48, 77, 80%);
+}
+
+.project-item img{
+    float: left;
+    margin-right: 20px ;
+
 }
 
 /* work experience
