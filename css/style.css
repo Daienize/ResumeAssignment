@@ -56,8 +56,10 @@ h1,h2{
 .content-wrap{
     width: 800px;
     margin: 0 auto;
-    padding: 60px 0;
+    padding: 10px 0;
 }
+
+
 
 /* Profile
 ---------------------------------------------- */
@@ -95,6 +97,10 @@ header p{
 .project-item{
     overflow: hidden;
     border-bottom: 1px dashed rgba(72, 48, 77, 80%);
+    padding: 25px 0;
+}
+.project-item h3{
+    margin-top: 0;
 }
 
 .project-item img{
@@ -123,6 +129,36 @@ header p{
 footer{
     background: #6b705c;    
     color:white;
+    flex: 1 0 100%;
 }
-/* Global Styles
----------------------------------------------- */
+footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+footer a{
+    color: white;
+}
+
+.ft-social-list {
+    border-top: 1px #777 solid; 
+    padding: 25px 0;
+
+  }
+  .ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1rem;
+  }
+  .ft-social-list img{
+    width: 30px;
+    margin: 0 5px 0 0;
+  }
+
+.ft-main-item {
+    border-top: 1px #777 solid; 
+    display: flex;
+    justify-content: center;
+    min-width: 12.5rem /*200px*/;
+    font-size: 1rem;
+
+  }
+
