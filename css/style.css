@@ -71,6 +71,59 @@ header p{
     font-style: italic;  
 }
 
+/*Menu
+----------------------------------------------*/
+nav ul{
+    list-style: none;	/*remove the bullets*/
+    margin: 0;
+    padding: 0;
+    background: #cb997e;    
+  }
+  nav ul li{
+    display: inline-block; /*display as one line*/
+    position: relative;
+    font: bold 12px/18px sans-serif;
+    background-color: #888;
+    padding: 15px 0px; /*adding space around text*/
+    border-radius: 5px;
+    cursor: pointer; /*Change the mouse cursor to a pointer even if the text is not a link (useful for dropdown menus)*/
+
+  }
+  nav ul li:hover{
+    background-color: #ddbea9;
+  }
+  
+  nav li:hover ul{
+    left: -40px; /*bring sub-menu back on screen*/
+  }
+  
+  /*sub-menus*/
+  nav ul li ul{
+    /*display: none; hide the submenu. DON'T DO THIS! NOT ACCESSIBLE. hidden IS ALSO NOT GOOD because it occupe a place of the screen*/
+    left: -999999999999px;/* place sub-menu off screen*/
+    position: absolute; /*position absolutely in relation to menu*/
+    top: 48px; /*move sub-menu into proper position*/
+    width: 13em; /*change the space ocupped to word is in one line. If to use % (200%) it will be in relation to the block up, so the size will be different for each sub-menu*/
+    padding: 0;
+  }
+  
+  nav ul li ul li{
+    display: block;/*display sub-menu as one large block;*/
+    background-color: #ddbea9;
+    
+  }
+  nav ul li ul li:hover{
+    background-color: #888;
+  }
+  
+  nav a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px; /*this padding here is important to all box be clicable, not only the word inside de menu.*/
+  
+  
+  }
+
 /* Projects
 ---------------------------------------------- */
 .projects{
@@ -112,7 +165,7 @@ header p{
 /* work experience
 ---------------------------------------------- */
 .experience{
-    background:#ffe8d6;;
+    background:#ffe8d6;
     /*color:white;*/
 }
 
